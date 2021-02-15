@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div h2 span{
+    color: red;
+}
+.navbar #navbarSupportedContent .nav-item a:hover{
+    border-bottom: 2px solid rgb(218, 23, 23);
+    color:black;
+}
+.navbar-nav li a{
+    margin-right: 20px;
+}
+.landing-right{
+    width: 100vw;
+    height: 100vh;
+    cursor: pointer; 
+    padding-right: 10px;   
+}
+.brand{
+    font-size: 50px;
+}
+.landing-left{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+}
+/*-----about section---------*/
+.abt-heading{
+    color: red;
+}
+.abt-btn{
+    color: red;
+}
+.about-left{
+    text-align:justify;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.about-right{
+    height: 95vh;
+    width: 100%;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+/* mission & vision*/
+.mission-left{
+    height: 100vh;
+    width: 150%; 
+    padding-right: 15px;
+    align-items: center;
+}
+.vision{
+    margin-top: 130px;
+    color:red ;
+}
+.mi-para{
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/*-------service section start here*/
+.services-section{
+    padding: 5px;
+    margin-bottom: 40px;
+    background:#fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px;
+    text-align: center;
+}
+.services-section:hover{
+    color: #2980b9;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow:5px 5px 5px;
+}
+.icon{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.service-heading{
+    text-align: justify;
+    padding: 2px;
+}
+.ser-heading1{
+    text-align: center;
+}
+.ser-heading2{
+    text-align: center;
+}
+.ser-heading3{
+    text-align: center;
+    font-size: 30px;
+}
+.ser-heading4{
+    text-align: center;
+}
+.ser-heading5{
+    text-align: center;
+}
+.ser-heading6{
+    text-align: center;
+}
+.main-Heading{
+    margin: 30px;
+    text-align: center;
+}
+/*----client section--------*/
+.p-head{
+    margin-top: 25px;
+}
+.brand-carousel {
+    background: rgb(255, 255, 255);
+    margin-top: 10px
+    }
+    .owl-dots {
+    text-align: center;
+    margin-top: 4%;
+    }
+    .owl-dot {
+    display: inline-block;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #878787 !important;
+    opacity: 0.8;
+    border-radius: 50%;
+    margin: 0 5px;
+    }
+    .owl-dot.active {
+    background-color: #000 !important;
+    }
+            
+/*****team  section *****/
+.card1{
+    padding: 5px;
+    margin-bottom: 40px;
+    background:#fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card2{
+    padding: 5px;
+    margin-bottom: 40px;
+    background:#fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card3{
+    padding: 5px;
+    margin-bottom: 40px;
+    background:#fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card4{
+    padding: 5px;
+    margin-bottom: 40px;
+    background:#fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.card1 .box1  img{
+    margin: 20px auto;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.card2 .box2  img{
+    margin: 20px auto;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.card3 .box3  img{
+    margin: 20px auto;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.card4 .box4  img{
+    margin: 20px auto;
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.team-head{
+    color: rgb(43, 231, 43);
+    text-align: center;
+    margin-top: 80px;
+}
+.card1:hover{
+    background-color: #1394d6;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card2:hover{
+    background-color:rgb(38, 197, 38);
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card3:hover{
+    background-color:red;
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.card4:hover{
+    background-color: rgb(64, 64, 204);
+    color: white;
+    transform: scale(1.1);
+    transition: 1s;
+}
+/*----------blog section--------------*/
+.test-left{
+    text-align: justify;
+    margin-top: 80px;
+}
+.test-right{
+    width: 100%;
+    height: 95vh;
+    padding: 10px;
+    align-items: center !important;
+}
+h1{
+    color: red;
+}
+/*------------contact section-------------*/
+.map{
+    
+    font-size: 20px;
+    padding-top: 20px;
+}
+.mob{
+    
+    font-size: 20px;
+    text-align: center;
+}
+.gmail{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.icons i{
+    font-size: 25px;
+    margin-top:30px;
+    padding: 5.5px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.c-head{
+    font-size: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+.sub{
+    text-align: center;
+    font-weight: 500;
+}
+.fb{
+    border: 2px solid #3b5998;
+    color: #3b5998;
+}
+.tweet{
+    border: 2px solid #00acee;
+    color: #00acee;
+}.in{
+    border: 2px solid #0e76a8;
+    color: #0e76a8;
+}.insta{
+    border: 2px solid #8a3ab9;
+    color: #8a3ab9;
+}.mail{
+    border: 2px solid red;
+    color:red;
+}
+.fb:hover{
+    border: 2px solid #3b5998;
+    background-color: #3b5998;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.tweet:hover{
+    border: 2px solid #00acee;
+    background-color: #00acee;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.in:hover{
+    border: 2px solid #0e76a8;
+    background-color: #0e76a8;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.insta:hover{
+    border: 2px solid #8a3ab9;
+    background-color: #8a3ab9;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.mail:hover{
+    border: 2px solid red;
+    background-color:red;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.c-left{
+    height: 400px;
+    width: 400px;
+    align-items: center!important;
+    padding-right: 20px;
+    margin-left:20px;
+}
+.links ul li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.links ul li a{
+text-decoration: none;
+}
+.links li a:hover{
+    background-color: linear-gradient(blue,purple);
+    border: 2px solid linear-gradient(red,pink);
+    border-radius: 40%;
+}
+/*---------footer part------------*/
+.footer-part{
+    background-color: rgb(43, 39, 39);
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
